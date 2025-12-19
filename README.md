@@ -1,5 +1,7 @@
 # Security Toolkit
-## Under Development
+
+> Under Development
+
 A personal, modular security automation toolkit designed for fast usage across different machines and environments.
 
 This repository exists to solve a simple problem:
@@ -73,9 +75,9 @@ echo 'export PATH=$PATH:/path/to/security-toolkit/discovery' >> ~/.bashrc
 discovery/host_discovery.sh
 ```
 ### Purpose
-- Fast identifcatiın of live hosts
+- Fast identification of live hosts
 - Designed for VPN/Lab networks
-- Multiple discovery metthods and output formats
+- Multiple discovery methods and output formats
 Example Usage:
 ```bash
 ./discovery/host_discovery.sh -t 10.10.14.0/23 -m tcp -s fast -o ip
@@ -88,5 +90,5 @@ Example Usage:
 #### Legal and Ethical Notice
 This toolkit is intended only for authorized testing, labs, and educational purposes.
 Do not use these scripts on systems you do not own or have explicit permission to test.
-#### Licence 
-MIT Licence
+#### License 
+MIT License
